@@ -1,5 +1,5 @@
 # VBA-Excel
-VBA code for Excel
+VBA (Visual Basic for Applications) code for Excel
 
 ## Modules
 * ModArray: Array operation. Only sorting so far.
