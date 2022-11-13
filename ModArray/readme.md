@@ -7,7 +7,7 @@ License: MIT, Free Software
 *Parameter:*
 *vArray: 1D array*
 
-*Description: sort 1D array in ascending order*
+*Description: sort 1D array in ascending order* <br>
 Sub ArraySortASC(ByRef vArray)
 
 *Description: sort 1D array in descending order*
