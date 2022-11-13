@@ -32,7 +32,7 @@ Function FirstColumnInRow(sht, RowIndex)<br>
 *format won't affect this function*<br>
 
 *use following code to handle empty column/row:*<br>
-```visual basic
+```vba
 set var = LastCellInColumn(sht)
 If var Is Nothing Then
     'not found, do something for empty column/row
@@ -59,7 +59,7 @@ Function FirstCellInRow(sht, RowIndex)<br>
 *format won't affect this function*<br>
 
 *use following code to handle empty worksheet:*<br>
-```visual basic
+```vba
 var = LastRow(sht)
 If var = 0 Then
     'not found, do something for empty worksheet
@@ -84,7 +84,7 @@ Function FirstColumn(sht)<br>
 *format won't affect this function*<br>
 
 *use following code to handle empty worksheet:*<br>
-```visual basic
+```vba
 set var = LastCellInLastRow(sht)
 If var Is Nothing Then
     'not found, do something for empty worksheet
